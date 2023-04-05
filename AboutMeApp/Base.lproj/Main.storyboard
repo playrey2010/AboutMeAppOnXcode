@@ -144,7 +144,7 @@
         <!--Fun Facts-->
         <scene sceneID="JDt-4s-JNO">
             <objects>
-                <viewController id="qZo-Mi-OAz" sceneMemberID="viewController">
+                <viewController id="qZo-Mi-OAz" customClass="FunFactsViewController" customModule="AboutMeApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="egu-Ky-5tk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -161,9 +161,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Show Random Fact"/>
+                                <connections>
+                                    <action selector="showFactPressed:" destination="qZo-Mi-OAz" eventType="touchUpInside" id="AU6-sT-2j8"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Random Fun Fact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="md9-PP-wCs">
-                                <rect key="frame" x="75" y="446" width="225" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Random Fun Fact" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="md9-PP-wCs">
+                                <rect key="frame" x="16" y="446" width="343" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.3921568627" green="0.36078431370000003" blue="0.73333333329999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -174,10 +177,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Fun Facts" image="hand.thumbsup.fill" catalog="system" id="F32-p3-G47"/>
+                    <connections>
+                        <outlet property="funFactLabel" destination="md9-PP-wCs" id="c4D-Np-j88"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y0j-gc-r7x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-686.95652173913049" y="1385.4910714285713"/>
+            <point key="canvasLocation" x="-687.20000000000005" y="1385.4679802955666"/>
         </scene>
         <!--Favorites-->
         <scene sceneID="tne-QT-ifu">

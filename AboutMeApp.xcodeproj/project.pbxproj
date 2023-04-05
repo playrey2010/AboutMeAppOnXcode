@@ -15,6 +15,7 @@
 		BB0681782994384200F59719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0681772994384200F59719 /* Assets.xcassets */; };
 		BB06817B2994384200F59719 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0681792994384200F59719 /* LaunchScreen.storyboard */; };
 		BB94A57D29957A9A0078C9F4 /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94A57C29957A9A0078C9F4 /* StoryViewController.swift */; };
+		BBBF43F129DDE8E5007A2561 /* FunFactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBF43F029DDE8E5007A2561 /* FunFactsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BB06817A2994384200F59719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB06817C2994384200F59719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB94A57C29957A9A0078C9F4 /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
+		BBBF43F029DDE8E5007A2561 /* FunFactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				BB0681722994383E00F59719 /* ViewController.swift */,
 				BB94A57C29957A9A0078C9F4 /* StoryViewController.swift */,
 				1E31BC4C29DCA2670026C53F /* FavoritesViewController.swift */,
+				BBBF43F029DDE8E5007A2561 /* FunFactsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBBF43F129DDE8E5007A2561 /* FunFactsViewController.swift in Sources */,
 				BB94A57D29957A9A0078C9F4 /* StoryViewController.swift in Sources */,
 				BB0681732994383E00F59719 /* ViewController.swift in Sources */,
 				BB06816F2994383E00F59719 /* AppDelegate.swift in Sources */,
